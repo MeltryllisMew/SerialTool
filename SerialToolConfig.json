@@ -1,0 +1,22 @@
+{
+    "display_log": false,
+    "stop": "s",
+    "keywords": [
+        "Starting kernel ...",
+        "Boot state is: Orange !"
+    ],
+    "send": [
+        {
+            "word": "logcat -c",
+            "start": 10,
+            "step": 1,
+            "count": 1
+        },
+        {
+            "word": "logcat",
+            "start": 20,
+            "step": 1,
+            "count": 1
+        }
+    ]
+}
